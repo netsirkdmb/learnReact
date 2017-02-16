@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "learnreact",
   "version": "1.0.0",
   "description": "project to learn about react",
   "main": "index.js",
@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/netsirkdmb/learnReact/issues"
   },
-  "homepage": "https://github.com/netsirkdmb/learnReact#readme"
+  "homepage": "https://github.com/netsirkdmb/learnReact#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-react": "^6.23.0",
+    "html-webpack-plugin": "^2.28.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
 }
