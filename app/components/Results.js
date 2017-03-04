@@ -21,7 +21,7 @@ function Results (props) {
     if (props.isLoading === true) {
         <Loading/>
     }
-    if (props.scores[0] === props.scores[1]) {
+    else if (props.scores[0] === props.scores[1]) {
         return (
             <MainWrapper>
                 <h1>It's a tie!</h1>

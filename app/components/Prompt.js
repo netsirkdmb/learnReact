@@ -14,7 +14,8 @@ function Prompt (props) {
                             placeholder="Github Username"
                             onChange={props.onUpdateUser}
                             value={props.username}
-                            type="text"/>
+                            type="text"
+                            autoFocus/>
                     </div>
                     <div className="form-group col-sm-4 col-sm-offset-4">
                         <button 
